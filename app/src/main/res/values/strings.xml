@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DialogFragmentDemo</string>
+    <string name="fragment">fragment</string>
+    <string name="basic_dialog">basic dialog!</string>
+</resources>
