@@ -7,18 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:text="@string/basic_dialog"
-        android:id="@+id/show_dialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+<!--    <Button-->
+<!--        android:text="@string/basic_dialog"-->
+<!--        android:id="@+id/show_dialog"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
     <Button
         android:text="@string/fragment"
         android:id="@+id/show_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <RelativeLayout
-        android:background="@android:color/holo_orange_light"
         android:id="@+id/container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
