@@ -1,5 +1,6 @@
 package com.example.dialogfragmentdemo
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -14,9 +15,8 @@ class BasicFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val v = LayoutInflater.from(context).inflate(R.layout.dialog_content, container, false)
-        v.text_view.setOnClickListener {
-            TestDialogFragment().show(childFragmentManager, "")
-        }
+        v.text_view.text = "Fragment"
+        v.text_view.setTextColor(Color.BLACK)
         return v
     }
 }
